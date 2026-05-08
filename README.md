@@ -33,7 +33,7 @@ LSTM wins 3/4 subsets on RMSE; XGBoost wins 3/4 on NASA score (which penalises l
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/turbofan-rul
+git clone https://github.com/nurzantenelbaev-ux/turbofan-rul
 cd turbofan-rul
 
 # 2. Install dependencies
@@ -184,7 +184,7 @@ The pipeline runs on CPU or CUDA GPU (auto-detected). Reference timings (i7-1270
   author = {Nurzhan Tenelbayev},
   year   = {2026},
   note   = {CSCI 447 group project, Nazarbayev University},
-  url    = {https://github.com/<your-username>/turbofan-rul},
+  url    = {https://github.com/nurzantenelbaev-ux/turbofan-rul},
 }
 ```
 
