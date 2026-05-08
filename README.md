@@ -51,6 +51,7 @@ bash scripts/download_data.sh
 ```
 
 This downloads (~5 MB) and unpacks the data into `data/raw/`.
+You can also download it manually and place it in the path above: "https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip"
 
 ---
 
