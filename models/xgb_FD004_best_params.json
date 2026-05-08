@@ -1,0 +1,16 @@
+{
+  "subset": "FD004",
+  "params": {
+    "max_depth": 4,
+    "min_child_weight": 10,
+    "gamma": 5.0,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.1,
+    "learning_rate": 0.01
+  },
+  "val_rmse": 17.03858528334334,
+  "val_nasa": 59550.528013152514,
+  "best_iter": 897
+}

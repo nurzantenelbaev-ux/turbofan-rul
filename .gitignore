@@ -1,0 +1,57 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- Virtual envs ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Data ----------
+# Raw NASA C-MAPSS files (download via scripts/download_data.sh).
+data/raw/
+# Generated parquet/.npz feature matrices.
+data/processed/
+
+# ---------- Model artifacts ----------
+# Trained model checkpoints and logs.
+models/*.json
+models/*.pt
+models/*.csv
+# But DO commit the small tuned-hyperparameter JSONs so others can reproduce.
+!models/xgb_FD00*_best_params.json
+!models/lstm_FD00*_best_params.json
+
+# ---------- Results ----------
+# Per-run outputs are not committed — keep the directory layout only.
+results/**
+!results/.gitkeep
+!results/README.md
+
+# ---------- Reports ----------
+# LaTeX build artifacts.
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

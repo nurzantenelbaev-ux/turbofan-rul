@@ -1,0 +1,10 @@
+{
+  "name": "wider",
+  "hidden": 128,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "val_rmse": 11.3480808951526,
+  "val_nasa": 11312.312224553836,
+  "best_epoch": 90
+}

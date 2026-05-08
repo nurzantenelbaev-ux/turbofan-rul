@@ -1,0 +1,10 @@
+{
+  "name": "small",
+  "hidden": 32,
+  "num_layers": 1,
+  "dropout": 0.1,
+  "lr": 0.001,
+  "val_rmse": 16.823908363815107,
+  "val_nasa": 122281.94377100334,
+  "best_epoch": 72
+}
